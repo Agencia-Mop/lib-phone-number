@@ -6,9 +6,16 @@
     "name": "Gabriel Mendonça",
     "url": "https://gabrielmendonca.com"
   },
+  "main": "dist/phone-number.js",
+  "types": "@types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Agencia-Mop/lib-phone-number.git"
+  },
   "dependencies": {},
   "scripts": {
-    "test": "ts-jest"
+    "test": "jest",
+    "prepublish": "yarn tsc"
   },
   "devDependencies": {
     "@types/jest": "^28.1.6",
