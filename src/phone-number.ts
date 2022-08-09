@@ -1,3 +1,5 @@
+/// <reference path="./../@types/index.d.ts" />
+
 export class PhoneNumber {
 
   public readonly countryCode: string = '';
