@@ -11,5 +11,5 @@ declare module 'mop-lib-phone-number' {
     test (): void;
   }
 
-  export const phoneNumber = (number: string) => PhoneNumber;
+  export const phoneNumber = (number: string):PhoneNumber => {};
 }
