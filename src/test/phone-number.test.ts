@@ -1,6 +1,6 @@
 import { readFile } from "fs/promises";
 import { join } from "path";
-import { phoneNumber } from "../src/phone-number";
+import { phoneNumber } from "./../phone-number";
 
 const global_content_lines: [string, string][] = [];
 
