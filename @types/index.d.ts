@@ -1,4 +1,4 @@
-declare module 'lib-phone-number' {
+declare module 'mop-lib-phone-number' {
   export class PhoneNumber {
     public readonly countryCode: string;
     public readonly ddd: string;
